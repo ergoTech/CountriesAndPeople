@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countries And People</string>
+    <string name="buttonAdd">Add</string>
+    <string name="dellall">Delete</string>
+    <string name="change">Change</string>
+    <string name="buttonDell">Delete</string>
+    <string name="buttonColor">Color</string>
+    <string name="buttonPeople">People</string>
+</resources>

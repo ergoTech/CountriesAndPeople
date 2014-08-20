@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:weightSum="1"
+             android:descendantFocusability="beforeDescendants"
+             android:focusableInTouchMode="true">
+
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editsearch"
+            android:maxLines="1"
+            />
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:id="@+id/listview"
+            android:layout_weight="1"/>
+
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonAdd"
+                android:id="@+id/bMainAdd"
+                android:onClick="onClickbAdd"
+                android:layout_weight="1"
+
+                />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonDell"
+                android:id="@+id/bDell"
+                android:onClick="onClickbDell"
+                android:layout_weight="1"/>
+
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonPeople"
+                android:id="@+id/bPeople"
+                android:onClick="onClickbPeople"
+                android:layout_weight="1"
+                />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change"
+                android:id="@+id/bChange"
+                android:onClick="onClickbChange"
+                android:layout_weight="1"
+                />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonColor"
+                android:id="@+id/bColor"
+                android:onClick="onClickbColor"
+                android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

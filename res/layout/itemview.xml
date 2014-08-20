@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:id="@+id/itemList"
+                >
+
+
+    <ImageView
+            android:id="@+id/itemIcon"
+            android:src="@drawable/ic_launcher"
+            style="@style/imageView"
+            />
+    <ImageView
+            android:id="@+id/itemBird"
+            android:src="@drawable/bird"
+            style="@style/imageView"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/textPopular"
+            android:layout_toLeftOf="@+id/textCountry"/>
+    <TextView
+            android:id="@+id/textCountry"
+            style="@style/countryText"
+            />
+    <TextView
+            android:id="@+id/textPopular"
+            style="@style/popularText"
+            />
+    <TextView
+            android:id="@+id/textArea"
+            style="@style/areaText"
+            />
+</RelativeLayout>

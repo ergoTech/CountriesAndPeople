@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="imageView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:adjustViewBounds">true</item>
+
+    </style>
+
+    <style name="countryText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignRight">@+id/textArea</item>
+        <item name="android:layout_toRightOf">@+id/itemIcon</item>
+        <item name="android:text">Country</item>
+    </style>
+
+    <style name="popularText">
+        <item name="android:textColor">#837E7C</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:text">Population</item>
+        <item name="android:layout_alignBottom">@+id/itemIcon</item>
+        <item name="android:layout_toRightOf">@+id/itemIcon</item>
+    </style>
+
+    <style name="areaText">
+        <item name="android:textColor">#837E7C</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:text">Area</item>
+        <item name="android:layout_alignTop">@+id/textPopular</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+
+    </style>
+
+</resources>
